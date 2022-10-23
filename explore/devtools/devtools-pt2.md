@@ -1,0 +1,2 @@
+1. The bug is that the type of `result` is `string`, meaning it is taking `num1` and `num2` as strings and just concatenating them with the add operator. 
+2. I would fix it by casting num1 and num2 to Number type in the line that result is initialized (see photo) as well as add semicolons where needed. This way, result is also a Number type, as the result of addition between Number types.

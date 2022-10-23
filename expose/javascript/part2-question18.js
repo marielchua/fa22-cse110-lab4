@@ -4,4 +4,4 @@ function timeSeconds(){
     console.log(time);
   }
   
-  setInterval(timeSeconds, 1000);
+setInterval(timeSeconds, 1000);
